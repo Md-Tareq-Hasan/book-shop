@@ -1,0 +1,38 @@
+.admin-container{
+    display: flex;
+    width:100%;
+}
+.sidebar-container{
+    width:25%;
+    box-sizing: border-box;
+}
+.sidebar{
+    height:700px;
+    background-color: rgb(2, 50, 82);
+    width:100%;
+    box-sizing: border-box;
+}
+.edit-sidebar-container{
+    width:75%;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 500px) {
+    .admin-container{
+        display: block;
+        background-color: rgba(163, 192, 149, 0.438);
+        height:auto;
+        width:auto;
+    }
+    .sidebar{
+        height:390px;
+        width:100%;
+        margin-bottom: 30px;
+        margin-left: 13%;
+       padding-top: 30px;
+      
+    }
+    .edit-sidebar-container{
+        width:30%;
+        height:390px;
+    }
+}

@@ -1,0 +1,15 @@
+.order-item{
+    display: grid;
+    gap:20px;
+    width:200px;
+    height:400px;
+    margin:30px;
+    grid-template-columns: repeat(4,1fr);
+}
+@media screen and (max-width: 500px) {
+    .order-item{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding:25px;
+    }
+}

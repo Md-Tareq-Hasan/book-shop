@@ -1,0 +1,18 @@
+.home-container{
+    width:100%;
+    height:auto;
+    text-align: center;
+}
+.home-container-card{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:20px;
+}
+@media screen and (max-width: 500px) {
+    .home-container-card{
+        grid-template-columns: repeat(1,1fr);
+        padding:35px;
+        margin-bottom: 15px;
+        height:150px;
+    }
+}

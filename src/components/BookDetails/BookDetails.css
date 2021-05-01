@@ -1,0 +1,48 @@
+.home-container{
+  margin-top: 30px;
+}
+.card{
+height:444px;
+background-color: rgb(140, 0, 255)!important;
+box-shadow: 2px 5px 5px gray;
+}
+.card-container{
+  height:440px;
+  width:250px;
+}
+.card-container img{
+    height:270px;
+    width:250px;
+}
+button:focus {
+    box-shadow: none !important;
+    outline: none !important; 
+  }
+  .btn-buy {
+    position: relative;
+    border: none;
+    color: #FFFFFF;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .btn-buy:after {
+    content: "";
+    background: #190bdb;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+  }
+  .btn-buy:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  }

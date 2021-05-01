@@ -1,0 +1,9 @@
+.shipment-form{
+margin-left:600px;
+margin-top: 60px;
+border: 2px solid rgb(140, 0, 255);
+border-radius: 10px;
+background-color:rgb(140, 0, 255);
+width: 270px;
+padding: 40px;
+}
